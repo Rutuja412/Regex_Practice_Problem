@@ -13,10 +13,16 @@ namespace Regex_Problems
             string[] inputs = { "ab", "abb", "aab", "abbb" ,"a" };
             RegexPattern(inputs, regex);
         }
-        public static void Que2()
+        public static void Que2LowerCase()
         {
             string regex = "^[a-z]+_[a-z]$";
             string[] inputs = { "aa_b", "abb_b", "A_ab", "Aa_Bb", "a_b" };
+            RegexPattern(inputs, regex);
+        }
+        public static void Que3ImageFormat()
+        {
+            string regex = @"([^\s]+(\.(?i)(jpg|png|pdf))$)";// \\s-string must be contain at least one character,(?i) = string ignore the case-sensitive.
+            string[] inputs = { "abc.png", "im.jpg", ".gif", "abc.mp3", " .jpg","rsp.pdf" };
             RegexPattern(inputs, regex);
         }
 
