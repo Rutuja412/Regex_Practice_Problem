@@ -7,6 +7,7 @@ namespace Regex_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Regex");
+            Pattern.Que1();
         }
     }
 }
