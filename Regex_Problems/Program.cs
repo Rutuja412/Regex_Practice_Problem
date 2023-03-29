@@ -8,6 +8,8 @@ namespace Regex_Problems
         {
             Console.WriteLine("Welcome to Regex");
             Pattern.Que1();
+            Console.WriteLine("----------------------------");
+            Pattern.Que2();
         }
     }
 }
