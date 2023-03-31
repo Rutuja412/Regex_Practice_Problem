@@ -12,6 +12,9 @@ namespace Regex_Problems
             Pattern.Que2LowerCase();
             Console.WriteLine("-------------------------------");
             Pattern.Que3ImageFormat();
+            Console.WriteLine("-------------------------------");
+            Pattern.Que4HTMLTags();
+           
         }
     }
 }
